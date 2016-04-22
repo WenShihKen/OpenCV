@@ -1,0 +1,23 @@
+﻿已經開始建置於 2016/3/3 下午 04:56:47。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\ken\Documents\Visual Studio 2015\Projects\膚色辨識\opencv_test\opencv_test.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (opencv_test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt skin.cpp
+         skin.cpp
+     1>c:\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\ken\documents\visual studio 2015\projects\膚色辨識\opencv_test\skin.cpp(31): warning C4244: '=': 將 'double' 轉換為 'uchar'，由於類型不同，可能導致資料遺失
+     1>c:\users\ken\documents\visual studio 2015\projects\膚色辨識\opencv_test\skin.cpp(32): warning C4244: '=': 將 'double' 轉換為 'uchar'，由於類型不同，可能導致資料遺失
+     1>c:\users\ken\documents\visual studio 2015\projects\膚色辨識\opencv_test\skin.cpp(33): warning C4244: '=': 將 'double' 轉換為 'uchar'，由於類型不同，可能導致資料遺失
+     1>c:\users\ken\documents\visual studio 2015\projects\膚色辨識\opencv_test\skin.cpp(45): warning C4309: '=': 轉換導致常數值遭截斷; 可能需要使用較大的類型
+     1>c:\users\ken\documents\visual studio 2015\projects\膚色辨識\opencv_test\skin.cpp(46): warning C4309: '=': 轉換導致常數值遭截斷; 可能需要使用較大的類型
+     1>c:\users\ken\documents\visual studio 2015\projects\膚色辨識\opencv_test\skin.cpp(47): warning C4309: '=': 轉換導致常數值遭截斷; 可能需要使用較大的類型
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ken\Documents\Visual Studio 2015\Projects\膚色辨識\Debug\skin_detect.exe" /INCREMENTAL /NOLOGO C:\opencv\mybuild\install\x86\vc14\lib\opencv_calib3d300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_core300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_features2d300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_flann300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_hal300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_highgui300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_imgcodecs300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_imgproc300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_ml300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_objdetect300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_photo300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_shape300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_stitching300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_superres300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_ts300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_video300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_videoio300d.lib C:\opencv\mybuild\install\x86\vc14\lib\opencv_videostab300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ken\Documents\Visual Studio 2015\Projects\膚色辨識\Debug\skin_detect.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ken\Documents\Visual Studio 2015\Projects\膚色辨識\Debug\skin_detect.lib" /MACHINE:X86 Debug\skin.obj
+         opencv_test.vcxproj -> C:\Users\ken\Documents\Visual Studio 2015\Projects\膚色辨識\Debug\skin_detect.exe
+     1>專案 "C:\Users\ken\Documents\Visual Studio 2015\Projects\膚色辨識\opencv_test\opencv_test.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.17
