@@ -1,0 +1,11 @@
+﻿已經開始建置於 2015/12/9 下午 12:30:42。
+     1>節點 2 (Build 目標) 上的專案 "C:\Users\ken\Documents\Visual Studio 2015\Projects\opencv_test\opencv_test\opencv_test.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>Source.cpp(2): fatal error C1083: 無法開啟包含檔案: 'opencv2/core/core.hpp': No such file or directory
+     1>專案 "C:\Users\ken\Documents\Visual Studio 2015\Projects\opencv_test\opencv_test\opencv_test.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.14
