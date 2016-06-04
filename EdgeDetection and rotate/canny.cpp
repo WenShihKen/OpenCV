@@ -3,11 +3,11 @@
 int main()
 {
 	double displacement_x, displacement_y, degree, scale;
-	printf("請輸入倍率:");
+	printf("Give the scale:");
 	cin >> scale;
-	printf("請輸入位移量 正則往左右 負則往右下:");
+	printf("Give the displacement (x,y):");
 	cin >> displacement_x >> displacement_y;
-	cout << "旋轉角度:";
+	cout << "Rotate angle:";
 	cin >> degree;
 
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////

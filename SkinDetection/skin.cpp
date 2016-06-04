@@ -1,5 +1,5 @@
-#include <cv.h>  //Computer Vision
-#include <highgui.h> //GUI¤¶­±ªº¨ç¦¡®w
+#include <cv.h>
+#include <highgui.h>
 #include <stdio.h>
 
 

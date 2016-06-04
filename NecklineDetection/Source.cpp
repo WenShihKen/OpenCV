@@ -5,6 +5,7 @@
 #include <iostream>
 #include <cstdio>
 
+
 #define long_max 120
 #define lineLengthMax 130
 #define lineWidthRange 5
@@ -52,7 +53,7 @@ int main() {
 	cvCreateTrackbar("HighCr", "Control", &HCr, 255);
 	cvCreateTrackbar("LowCb", "Control", &LCb, 255);
 	cvCreateTrackbar("HighCb", "Control", &LCb, 255);
-
+	
 	int now_row = 87;
 	int breath = 0;
 	bool change = false;
